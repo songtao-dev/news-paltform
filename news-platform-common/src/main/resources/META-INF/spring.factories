@@ -1,0 +1,8 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.reynasky.common.exception.ExceptionCatch,\
+  com.reynasky.common.swagger.SwaggerConfiguration,\
+  com.reynasky.common.swagger.Swagger2Configuration,\
+  com.reynasky.common.aliyun.GreenTextScan,\
+  com.reynasky.common.aliyun.GreenImageScan,\
+  com.reynasky.common.redis.CacheService,\
+  com.reynasky.common.jackson.InitJacksonConfig
